@@ -5,8 +5,12 @@
   "author": "Ingo Köpp <ingokpp@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "release": "standard-version"
+  },
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "standard-version": "^9.3.0"
   },
   "config": {
     "commitizen": {
