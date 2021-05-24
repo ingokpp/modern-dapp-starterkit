@@ -1,0 +1,16 @@
+{
+  "name": "modern-dapp-starterkit",
+  "version": "1.0.0",
+  "repository": "git@github.com:ingokpp/modern-dapp-starterkit.git",
+  "author": "Ingo Köpp <ingokpp@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
