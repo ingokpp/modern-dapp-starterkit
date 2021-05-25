@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/ingokpp/modern-dapp-starterkit/compare/v1.1.0...v2.0.0) (2021-05-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **client:** Including a react client project into the existing truffle project.
+
+### Features
+
+* add eslint and prettier ([329a05b](https://github.com/ingokpp/modern-dapp-starterkit/commit/329a05bfababf565b21c0b4c09b682f58c8fba1a))
+* add husky and lint-staged to enable pre-commit linting and eslint ([2afc030](https://github.com/ingokpp/modern-dapp-starterkit/commit/2afc030fb097d1dd96770bbb5b8ad70394d2afd3))
+* update typescript code to make it eslint conform ([a12712b](https://github.com/ingokpp/modern-dapp-starterkit/commit/a12712be3356741276eaabc33264d355bcd72f6c))
+* **client:** add client project using create-react-app with TypeScript template ([b8e7b81](https://github.com/ingokpp/modern-dapp-starterkit/commit/b8e7b81f944f4076a6c2586e41c099764ec1f0b1))
+
 ## 1.1.0 (2021-05-24)
 
 
