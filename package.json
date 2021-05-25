@@ -11,7 +11,8 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"release": "standard-version",
-		"prettify": "prettier --write **/*.{ts,tsx,js,jsx,json,css,scss,sol}"
+		"lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+		"format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|tsx|js|jsx|json|css|scss)\" --write"
 	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.11.4",
@@ -29,9 +30,12 @@
 	},
 	"devDependencies": {
 		"cz-conventional-changelog": "3.3.0",
-		"eslint-config-airbnb-typescript": "^12.3.1",
+		"eslint-config-airbnb": "^18.2.1",
 		"eslint-config-prettier": "^8.3.0",
+		"eslint-import-resolver-typescript": "^2.4.0",
 		"eslint-plugin-prettier": "^3.4.0",
+		"husky": "4",
+		"lint-staged": "^11.0.0",
 		"prettier": "^2.3.0",
 		"standard-version": "^9.3.0"
 	},
@@ -51,5 +55,18 @@
 		"commitizen": {
 			"path": "./node_modules/cz-conventional-changelog"
 		}
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"./src/**/*.{ts,js,jsx,tsx}": [
+			"yarn lint --fix"
+		],
+		"./src/**/*.{json,css,scss,svg}": [
+			"yarn format"
+		]
 	}
 }
