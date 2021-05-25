@@ -1,5 +1,7 @@
+const path = require('path');
+
 module.exports = {
-	contracts_directory: './src/contracts/',
+	contracts_build_directory: path.join(__dirname, '/src/contracts'),
 	networks: {
 		develop: {
 			host: '127.0.0.1',
