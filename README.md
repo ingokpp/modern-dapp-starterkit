@@ -11,24 +11,51 @@ A Solidity / TypeScript starter for truffle and react that includes all you need
 
 # 🚀 Getting started
 
-## Ganache (Local Etherum Chain)
+## Dependencies
 
-TODO: Write ganache setup docs.
+TODO: Add dependency docs.
 
-## Client
+---
 
-The best way to start with this template is using `create-react-app`.
+## Ganache - one click blockchain
+
+> Quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
+
+1. Download and install the latest Ganache version for your OS from the [Official Ganache Website](https://www.trufflesuite.com/ganache).
+2. Once Ganache is installed and opened click the **Quickstart Etherum** button and you're ready to go.
+
+## Truffle / Smart Contracts
+
+If you've successfully installed all the dependencies you're ready to compile and migrate your first Smart Contracts.
+
+Use the following commands to compile and migrate your solidity contracts:
 
 ```
-TODO: create cra-template
+truffle compile
+truffle migrate
 ```
 
-If you prefer you can clone this repository and run the following commands inside the project folder:
+## React-Client
 
-1. `npm install` or `yarn`;
-2. `npm start` or `yarn start`;
+To start the client you just need to run the following cmd inside of your project root directory:
+
+```
+npm start
+```
+
+... or if you prefer yarn:
+
+```
+yarn start
+```
 
 The project will be served at `http://localhost:3000`.
+
+## 🪚 Testing
+
+TODO: Add testing docs.
+
+---
 
 ## 🤝 Contributing
 
