@@ -2,6 +2,8 @@
 
 A Solidity / TypeScript starter for truffle and react that includes all you need to build amazing **Blockchain dApps** 🔥
 
+-   🔷 **Truffle** — Smart Contracts made sweeter
+-   ⚛️ **React 17** — Latest react version based on [create-react-app](https://create-react-app.dev/docs/adding-typescript/)
 -   💎 **Tailwind Css** — Rapidly build modern ui's without ever leaving your HTML
 -   📏 **ESLint** — Pluggable JavaScript and TypeScript linter
 -   🎨 **Prettier** - Opinionated Code Formatter
@@ -25,6 +27,8 @@ TODO: Add dependency docs.
 2. Once Ganache is installed and opened click the **Quickstart Etherum** button and you're ready to go.
 
 ## Truffle / Smart Contracts
+
+> Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
 If you've successfully installed all the dependencies you're ready to compile and migrate your first Smart Contracts.
 
