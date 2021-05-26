@@ -21,6 +21,8 @@
 	},
 	"plugins": ["react", "@typescript-eslint", "react-hooks", "jsx-a11y"],
 	"rules": {
+		"global-require": 0,
+		"import/no-extraneous-dependencies": ["warn", { "devDependencies": true }],
 		"no-use-before-define": "off",
 		"@typescript-eslint/no-use-before-define": ["error"],
 		"react/jsx-filename-extension": [
