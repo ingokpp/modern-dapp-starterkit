@@ -1,4 +1,4 @@
-# Modern dApp Starterkit
+# Modern Etherum/React dApp Starterkit
 
 A Solidity / TypeScript starter for truffle and react that includes all you need to build amazing **Blockchain dApps** 🔥
 
