@@ -1,6 +1,6 @@
 <img src="public/thumbnail.png" alt="drawing" width="100%"/>
 
-# Modern Etherum/React dApp Starterkit
+# Modern dApp Starterkit
 
 A Solidity / TypeScript starter for truffle and react that includes all you need to build amazing **Blockchain dApps** 🔥
 
