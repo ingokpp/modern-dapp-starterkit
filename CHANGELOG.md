@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/ingokpp/modern-dapp-starterkit/compare/v2.0.0...v2.1.0) (2021-05-27)
+
+
+### Features
+
+* **client:** add Tailwind Css to the project ([ed5dc9f](https://github.com/ingokpp/modern-dapp-starterkit/commit/ed5dc9f99521e672bdcc05f640ec84a4ad2e470c))
+* add generated contract abi json file ([e990425](https://github.com/ingokpp/modern-dapp-starterkit/commit/e99042562aac28f5600e97ca45a670ee866bdea2))
+* add index file for app component to achive better imports ([bc0965c](https://github.com/ingokpp/modern-dapp-starterkit/commit/bc0965cf48747103e12a1136d661a08273260796))
+* add Web3 implementation to the client ([e09ef6c](https://github.com/ingokpp/modern-dapp-starterkit/commit/e09ef6c1fa6b9d5a13383ad14cbab9891e8eec65))
+* **client:** remove unnecessary react boilerplate code. Add  component folder and move App into it ([8e46903](https://github.com/ingokpp/modern-dapp-starterkit/commit/8e469034b3b58a6ec67955517c00b9d0bed5ab23))
+* add migration for SimpleStorage contract ([1778ec4](https://github.com/ingokpp/modern-dapp-starterkit/commit/1778ec4c78b5ca2ca8630f41dc164f226eb9882f))
+* **truffle:** update truffle config and move 'contracts' folder into ./src ([d4fe399](https://github.com/ingokpp/modern-dapp-starterkit/commit/d4fe3993e1aea7b0f08659ae35aefe9e03f28fc5))
+* **truffle:** update truffle config so the contracts build directory will be in ./src ([74e7bba](https://github.com/ingokpp/modern-dapp-starterkit/commit/74e7bbad970d2507858a7d8e3029a2c3aec45f38))
+
 ## [2.0.0](https://github.com/ingokpp/modern-dapp-starterkit/compare/v1.1.0...v2.0.0) (2021-05-25)
 
 
