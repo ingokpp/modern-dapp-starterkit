@@ -41,7 +41,7 @@
 		"eslint-plugin-prettier": "^3.4.0",
 		"husky": "4",
 		"lint-staged": "^11.0.0",
-		"postcss": "^7",
+		"postcss": "^8.3.0",
 		"prettier": "^2.3.0",
 		"standard-version": "^9.3.0",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat"
