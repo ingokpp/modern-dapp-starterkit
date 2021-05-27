@@ -58,6 +58,7 @@ The project will be served at `http://localhost:3000`.
 ## 🔧 Testing
 
 TODO: Add testing docs.
+TODO: Write even more docs.
 
 ---
 
