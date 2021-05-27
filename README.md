@@ -55,7 +55,7 @@ yarn start
 
 The project will be served at `http://localhost:3000`.
 
-## 🪚 Testing
+## 🔧 Testing
 
 TODO: Add testing docs.
 
