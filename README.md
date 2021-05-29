@@ -2,7 +2,7 @@
 
 # Modern dApp Starterkit
 
-A Solidity / TypeScript starter for truffle and react that includes all you need to build amazing **Blockchain dApps** 🔥
+Solidity / TypeScript starter for truffle and react that includes all you need to build amazing **Blockchain dApps** 🔥
 
 -   🔷 **Truffle** — Smart Contracts made sweeter
 -   ⚛️ **React 17** — Latest react version based on [create-react-app](https://create-react-app.dev/docs/adding-typescript/)
@@ -17,7 +17,26 @@ A Solidity / TypeScript starter for truffle and react that includes all you need
 
 ## Dependencies
 
-TODO: Add dependency docs.
+To get this project up and running you just need to install NodeJs, Truffle and Ganache.
+
+1. NodeJs LTS (14)
+2. Truffle CLI
+
+```
+npm install -g truffle@5.3.7
+```
+
+After you've installed the dependencies run the following command in the project (root) folder:
+
+```
+npm install
+```
+
+or if you using yarn:
+
+```
+yarn install
+```
 
 ---
 
