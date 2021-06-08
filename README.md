@@ -8,10 +8,10 @@ Solidity / TypeScript starter for truffle and react that includes all you need t
 -   ⚛️ **React 17** — Latest react version based on [create-react-app](https://create-react-app.dev/docs/adding-typescript/)
 -   💎 **Tailwind Css** — Rapidly build modern ui's without ever leaving your HTML
 -   📏 **ESLint** — Pluggable JavaScript and TypeScript linter
--   🎨 **Prettier** - Opinionated Code Formatter
+-   🎨 **Prettier** — Opinionated Code Formatter
 -   🐶 **Husky** — Modern native Git hooks made easy
--   📝 **Commitizen** - Zen-like commit messages for internet citizens
--   🚫 **lint-staged** - Run linters against staged git files
+-   📝 **Commitizen** — Zen-like commit messages for internet citizens
+-   🚫 **lint-staged** — Run linters against staged git files
 
 # 🚀 Getting started
 
@@ -79,7 +79,6 @@ The project will be served at `http://localhost:3000`.
 ## 🔧 Testing
 
 TODO: Add testing docs.
-TODO: Write even more docs.
 
 ---
 
